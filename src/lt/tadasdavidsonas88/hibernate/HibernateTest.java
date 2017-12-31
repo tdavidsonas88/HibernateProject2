@@ -30,6 +30,7 @@ public class HibernateTest {
 		UserDetails user5 = (UserDetails) session.get(UserDetails.class, 5);
 		user5.setUserName("Updated User");
 		// update
+		
 		session.update(user5);
 				
 		session.getTransaction().commit();
