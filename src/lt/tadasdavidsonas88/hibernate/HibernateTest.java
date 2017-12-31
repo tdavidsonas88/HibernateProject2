@@ -33,7 +33,7 @@ public class HibernateTest {
 		session.update(user5);
 				
 		session.getTransaction().commit();
-		session.close();
+		session.close(); 
 			
 
 
